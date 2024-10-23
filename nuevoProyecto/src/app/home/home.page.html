@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Quiz de Sumas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <h2>¿Cuánto es {{ num1 }} + {{ num2 }}?</h2>
+    <ion-item>
+      <ion-label position="floating">Tu respuesta</ion-label>
+      <ion-input type="number" [(ngModel)]="respuestaUsuario"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click)="comprobarRespuesta()">Comprobar</ion-button>
+    <p>{{ mensaje }}</p>
+  </div>
+</ion-content>
