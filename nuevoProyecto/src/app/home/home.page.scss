@@ -25,3 +25,58 @@
 #container a {
   text-decoration: none;
 }
+
+
+/* Estilos generales */
+.container {
+  padding: 16px;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 599px) {
+  .container {
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  ion-button {
+    font-size: 0.8rem;
+  }
+}
+
+/* Pantallas medianas */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .container {
+    background-color: #faebd7;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  ion-button {
+    font-size: 1rem;
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+  .container {
+    background-color: #fffacd;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  ion-button {
+    font-size: 1.2rem;
+  }
+}
