@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Producto 1",
+        "category": "Electrónica",
+        "price": 199.99,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "category": "Hogar",
+        "price": 29.99,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "name": "Producto 3",
+        "category": "Deportes",
+        "price": 79.99,
+        "image": "https://via.placeholder.com/150"
+    }
+]
